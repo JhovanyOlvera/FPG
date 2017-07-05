@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.google.gms:google-services:3.1.0'
+        classpath 'io.realm:realm-gradle-plugin:3.4.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext {
+    min_sdk_version = "16"
+    build_sdk_version = "25.0.0"
+    butterknife = "8.6.0"
+    android_support = "25.1.0"
+    retrofit2 = "2.3.0"
+    constraint = "1.0.2"
+    glide = "3.8.0"
+    junit = "4.12"
+    lottie = "2.0.0"
+    firebase = "9.6.1"
+    dataBase = "9.6.1"
+    realm = "3.4.0"
+}

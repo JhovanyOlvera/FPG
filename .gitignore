@@ -1,3 +1,4 @@
+
 # Built application files
 *.apk
 *.ap_
@@ -16,6 +17,10 @@ out/
 # Gradle files
 .gradle/
 build/
+gradlew
+gradlew.*
+gradle/*
+
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -35,21 +40,13 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/dictionaries
+.idea
 .idea/libraries
 
 # Keystore files
 *.jks
 
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
+# library files
+/.idea/libraries
+/.idea/*.xml
+/.idea/*.name

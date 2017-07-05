@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="85dp"
+            android:layout_height="75dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="5dp"
+                android:text="20 Actividades"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="10"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_below="@id/tv_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="SEPTIEMBRE"
+                android:layout_marginTop="-20dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_news_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:maxLines="1"
+                android:text="\u0387 Celebracion de los maestr@s"
+                android:textColor="#706969"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_news_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_news_1"
+                android:maxLines="1"
+                android:text="\u0387 Aplicación de Examenes"
+                android:textColor="#c4c4c4"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_news_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_news_2"
+                android:maxLines="1"
+                android:text="\u0387 Ultimo dia de Pago de Colegiatura"
+                android:textColor="#706969"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-50dp">
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ic_img"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_enter"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,2 +1,2 @@
 # FPG
-APP Colegio Fray Pedro de Gante
+Repositorio del proyecto Fray Pedro de Gante

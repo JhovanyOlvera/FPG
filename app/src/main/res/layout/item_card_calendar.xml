@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_container"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="0dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        card_view:cardCornerRadius="5dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/calendar"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/ic_calendar" />
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="@+id/calendar"
+                app:layout_constraintLeft_toLeftOf="@+id/calendar"
+                app:layout_constraintRight_toRightOf="@+id/calendar"
+                app:layout_constraintTop_toTopOf="@+id/calendar"
+                app:layout_constraintVertical_bias="0.58000004" />
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="sans-serif"
+                android:text="SEPTIEMBRE"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="8sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="@+id/calendar"
+                app:layout_constraintLeft_toLeftOf="@+id/calendar"
+                app:layout_constraintRight_toRightOf="@+id/calendar"
+                app:layout_constraintTop_toTopOf="@+id/calendar"
+                app:layout_constraintVertical_bias="0.55" />
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="2018"
+                android:textAlignment="center"
+                android:textColor="#aae41414"
+                android:textSize="8sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="@+id/calendar"
+                app:layout_constraintLeft_toLeftOf="@+id/calendar"
+                app:layout_constraintRight_toRightOf="@+id/calendar"
+                app:layout_constraintTop_toTopOf="@+id/calendar"
+                app:layout_constraintVertical_bias="0.79" />
+
+            <TextView
+                android:id="@+id/tv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1"
+                android:textColor="#ba1a1a"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.98"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.95" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/calendar"
+                app:layout_constraintLeft_toRightOf="@+id/calendar"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/calendar">
+
+                <TextView
+                    android:id="@+id/tv_news_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="-Celebracion de los maestr@s"
+                    android:textColor="#706969"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_news_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="-Aplicación de Examenes"
+                    android:textColor="#c4c4c4"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_news_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="-Ultimo dia de Pago de Colegiatura"
+                    android:textColor="#706969"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_news_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="-Escuela de padres"
+                    android:textColor="#c4c4c4"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

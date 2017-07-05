@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "691725344880",
+    "firebase_url": "https://app-fpg.firebaseio.com",
+    "project_id": "app-fpg",
+    "storage_bucket": "app-fpg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691725344880:android:6c2c3cf1ee2ec93e",
+        "android_client_info": {
+          "package_name": "com.fpg.fpg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691725344880-mpd5sno5ocf9bb22p6n2hqp8go9ee6kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-n_ABstIrWJevo2Y-Y-O_ujtNNAeJOlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
