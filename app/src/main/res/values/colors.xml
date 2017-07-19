@@ -42,4 +42,7 @@
     <color name="color_details_description">#d7a6a6a6</color>
 
 
+    <!--       C O L O R S   T E X T        -->
+    <color name="color_title_white">#e7eef3</color>
+    <color name="color_title_blue_sky">#5ab5f3</color>
 </resources>
