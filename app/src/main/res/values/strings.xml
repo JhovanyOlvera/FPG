@@ -16,7 +16,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">FPG</string>
+    <string name="app_name">Fray Pedro</string>
 
     <!-- Titles -->
     <string name="title_crossfade">Simple Crossfade</string>
@@ -59,6 +59,14 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="splash_title_college">COLEGIO FRAY PEDRO DE GANTE</string>
+    <string name="splash_title_institute">INSTITUTO CULTURAL 12 DE OCTUBRE</string>
+    <string name="splash_title_preschool">PREESCOLAR</string>
+    <string name="splash_title_primary">PRIMARIA</string>
+    <string name="splash_title_high_school">SECUNDARIA</string>
+    <string name="splash_title_version">Versión</string>
 </resources>
 
 
